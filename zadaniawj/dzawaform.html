@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap:40px;
+        }
+        nav{
+            border-right: 1px solid black;
+            height: 1000px;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <input type="radio" name="Obrazek" id="Mount" checked>Mount<br>
+        <label for="Tram"><input type="radio" name="Obrazek" id="Tram">Tram<br></label>
+        <label for="York"><input type="radio" name="Obrazek" id="York">York</label><br>
+        <button onclick="sendimg()" id=""button>wyslj</button>
+    </nav>
+    <main><img src="snow mount.jpg" alt="" id="img"></main>
+    <script src="./dzawaform.js" defer></script>
+</body>
+</html>
